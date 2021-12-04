@@ -20,3 +20,4 @@ model.fit(X, y, epochs=150, batch_size=10)
 _, accuracy = model.evaluate(X, y)
 print('Accuracy: %.2f' % (accuracy*100))
 
+
